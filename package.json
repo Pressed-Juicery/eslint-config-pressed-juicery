@@ -16,5 +16,8 @@
 	"homepage": "https://github.com/Pressed-Juicery/eslint-config-pressed-juicery#readme",
 	"dependencies": {
 		"eslint": "6.8.0"
+	},
+	"peerDependencies": {
+		"eslint": ">= 6.8.0"
 	}
 }
