@@ -1,0 +1,27 @@
+{
+	"name": "eslint-config-pressed-juicery",
+	"version": "0.0.0",
+	"description": "An extensible ESLint configuration.",
+	"scripts": {
+		"lint": "eslint '**/*.js'"
+	},
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Pressed-Juicery/eslint-config-pressed-juicery.git"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig"
+	],
+	"author": "Pressed Juicery, Inc.",
+	"license": "MIT",
+	"homepage": "https://github.com/Pressed-Juicery/eslint-config-pressed-juicery#readme",
+	"dependencies": {
+		"confusing-browser-globals": "1.0.9",
+		"eslint": "6.8.0"
+	},
+	"peerDependencies": {
+		"eslint": ">= 6.8.0"
+	}
+}
