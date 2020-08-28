@@ -82,7 +82,7 @@ module.exports = {
 		'rest-spread-spacing': 'error',
 
 		// enforce sorted import declarations within modules
-		'sort-imports': 'error',
+		'sort-imports': ['error', { allowSeparatedGroups: true }],
 
 		// require symbol descriptions
 		'symbol-description': 'error',
