@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-pressed-juicery",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "An extensible ESLint configuration.",
 	"scripts": {
 		"lint": "eslint '**/*.js'"
@@ -19,9 +19,9 @@
 	"homepage": "https://github.com/Pressed-Juicery/eslint-config-pressed-juicery#readme",
 	"dependencies": {
 		"confusing-browser-globals": "1.0.9",
-		"eslint": "6.8.0"
+		"eslint": "7.7.0"
 	},
 	"peerDependencies": {
-		"eslint": ">= 6.8.0"
+		"eslint": ">= 7.5.0"
 	}
 }
